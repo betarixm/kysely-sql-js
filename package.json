@@ -1,0 +1,43 @@
+{
+  "name": "kysely-sql-js",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "Kysely dialect for sql.js",
+  "scripts": {
+    "build": "bun run build.mjs",
+    "prepublishOnly": "bun run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "kysely",
+    "sql.js",
+    "sqlite",
+    "database",
+    "query",
+    "sql",
+    "dialect"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/betarixm/kysely-sql-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/betarixm/kysely-sql-js.git"
+  },
+  "bugs": "https://github.com/betarixm/kysely-sql-js/issues",
+  "author": "Minjae Gwon <beta.underalpha@gmail.com>",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/sql.js": "^1.4.9",
+    "bun-plugin-dts": "^0.2.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "kysely": ">= 0.27.3 < 1",
+    "sql.js": ">= 1.10.3 < 2"
+  }
+}
