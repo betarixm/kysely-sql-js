@@ -1,8 +1,9 @@
 {
   "name": "kysely-sql-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "description": "Kysely dialect for sql.js",
   "scripts": {
     "build": "bun run build.mjs",
